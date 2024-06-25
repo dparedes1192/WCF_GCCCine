@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBGCCCine", "WEBGCCCine\WEBGCCCine.csproj", "{4D0F20D2-A46E-4E1E-90C6-C8CD47171331}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7DAA03BB-3444-4F22-B3F3-D0B71839F93F} = {7DAA03BB-3444-4F22-B3F3-D0B71839F93F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_GCCCine", "..\WCF_GCCCine\WCF_GCCCine\WCF_GCCCine.csproj", "{7DAA03BB-3444-4F22-B3F3-D0B71839F93F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D0F20D2-A46E-4E1E-90C6-C8CD47171331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0F20D2-A46E-4E1E-90C6-C8CD47171331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0F20D2-A46E-4E1E-90C6-C8CD47171331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0F20D2-A46E-4E1E-90C6-C8CD47171331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAA03BB-3444-4F22-B3F3-D0B71839F93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAA03BB-3444-4F22-B3F3-D0B71839F93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAA03BB-3444-4F22-B3F3-D0B71839F93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAA03BB-3444-4F22-B3F3-D0B71839F93F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAF46344-FA0A-4AD6-B6C0-11004A9C044F}
+	EndGlobalSection
+EndGlobal
